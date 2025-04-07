@@ -9,6 +9,7 @@ body{
   color: #FFFFFF;
   background-color: #F55A5A;
   gap:10px;
+  margin-bottom: 10px;
 }
 
 .header > img{
@@ -18,4 +19,24 @@ body{
   font-family: 'Inter', sans-serif;
   font-size: larger;
 }
+.entry{
+  margin: 100px;
+  margin-left:40px;
+  display: flex;
+  gap: 20px;
+}
 
+.entry > img{
+  height:240px;
+  width: 180px;
+}
+
+.location{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.location >img{
+  height:15px;
+  width: 11px;
+}
