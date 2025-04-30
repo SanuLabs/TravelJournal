@@ -8,15 +8,13 @@ const entryElements = data.map(entry => {
     return(
         <Entry 
         key={entry.id}
-        img={entry.img.src}
-        country={entry.country}
-        name={entry.title}
-        location={entry.googleMapsLink}
-        date={entry.dates}
-        article={entry.text}
+        entry={entry}
         />
+      
     )
 })
+
+console.log(entryElements)
 
 function App() {
 
@@ -24,6 +22,7 @@ function App() {
     <>
      <Header/>
      {entryElements}
+     
     </>
   )
 }
